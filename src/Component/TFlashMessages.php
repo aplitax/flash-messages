@@ -8,7 +8,7 @@ trait TFlashMessages
 	protected $flashMessagesFactory;
 
 
-	public function injectFlashMessagesFactory(FlashMessagesFactory $factory = null)
+	public function injectFlashMessagesFactory(?FlashMessagesFactory $factory = null)
 	{
 		$this->flashMessagesFactory = $factory;
 	}

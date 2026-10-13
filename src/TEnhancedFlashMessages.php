@@ -34,7 +34,7 @@ trait TEnhancedFlashMessages
 	}
 
 
-	public function injectFlashMessagesTranslator(ITranslator $translator = null): void
+	public function injectFlashMessagesTranslator(?ITranslator $translator = null): void
 	{
 		$this->flashMessagesTranslator = $translator;
 	}
